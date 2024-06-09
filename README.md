@@ -5,7 +5,7 @@
 ## Install sddm
 
 ```sh
-./install-sddm.sh
+sudo ./install-sddm.sh
 ```
 
 This script installs qt5, sddm. It enables sddm and disable other display managers.
@@ -15,7 +15,7 @@ This script installs qt5, sddm. It enables sddm and disable other display manage
 The theme we're going to be installing is called [where_is_my_sddm_theme](https://github.com/stepanzubkov/where-is-my-sddm-theme)
 
 ```sh
-./install-theme.sh
+sudo ./install-theme.sh
 ```
 
 This script copies the theme in /usr/share/sddm/themes/ and then sets it as the current sddm theme.
