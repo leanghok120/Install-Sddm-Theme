@@ -1,14 +1,5 @@
 #!/bin/bash
 
-# Install sddm and qt5
-pacman -S sddm qt5
-
-# Enable sddm
-systemctl disable gdm.service
-systemctl disable lightdm.service
-
-systemctl enable sddm.service
-
 cp -r where_is_my_sddm_theme_qt5/ /usr/share/sddm/themes/
 echo "Installed where_is_my_sddm_theme_qt5 successfully"
 
